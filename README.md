@@ -30,7 +30,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:80
 ```bash
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
-## ArgoCD Application
+## ArgoCD Application.
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
